@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	font-family: serif;
+	background: black;
+}
+.glad{
+	font-size: 50px;
+	color: darkred;
+	font-weight: 100;
+	margin-left: 300px;
+	margin-top: 100px;
+}
+.diary{
+	height: 400px;
+}
+button{
+	background: none;
+	color: darkred;
+	font-size: 60px;
+	margin-left: 10px;
+	border: none;
+}
+.E{
+	margin-left: 700px;
+}
+.number{
+	height: 220px;
+	width: 240px;
+	margin-left: 160px;
+	padding: 0;
+}

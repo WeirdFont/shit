@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	font-family: serif;
+	background: black;
+}
+h1{
+	font-size: 80px;
+	color: red;
+	margin-left: 680px;
+	font-weight: 100;
+}
+.img{
+	height: 1000px;
+}
+img{
+	height: 1000px;
+	width: 1900px;
+}
+.eye{
+	background-image: url(giphy.gif);
+}
+.rapeeyes{
+	height: 1000px;
+	background-image: url(goodeye.gif);
+	background-size: 100% 100%;
+	display: flex;
+}
+.son{
+	height: 970px;
+	background-image: url(son.gif);
+	background-size: 100% 100%;
+}

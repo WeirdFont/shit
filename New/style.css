@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	background: black;
+}
+
+.img{
+	background-image: url(cancer.png);
+	background-size: 100% 100%;
+	height: 500px;
+	width: 800px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img:hover{
+	background-image: url(Q.jpg);
+	height: 500px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.butt{
+	font-size: 40px;
+	background: none;
+	border: 0px;
+	color: white;
+	font-weight: 100;
+}
+.butt:hover{
+	font-size: 0;
+}
+.butt:hover:after{
+	content: attr(data-hover);
+	font-size: 40px;
+	color: darkred;
+	font-weight: 100;
+}
+.butt-div{
+	height: 100px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	font-weight: 100;
+}
+.img-body{
+	height: 500px;
+	width: 800px;
+	margin-top: 100px;
+	margin-left: 540px;
+
+}
